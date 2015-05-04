@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'/>
+  <title>Ezequiel Lopez Portfolio</title>
+  <link type='text/css' rel='stylesheet' href='/css/vendor/materialize.min.css' media='screen,projection'>
+  <link type='text/css' rel='stylesheet' href='/css/portfolio.css'>
+</head>
+<body>
+  <div id='banner-container'>
+    <div class='row' id='nav-bar'>
+      <div class='col s6'>
+        <h1 class='name-prof'>Ezequiel Lopez</h1>
+        <h3 class='name-prof'id='prof'>Jr Web Developer</h3>
+      </div>
+      <div class='col s6'>
+        <div id='links-container'>
+          <a class='contact-links' href="//github.com/cocolote">GitHub</a>
+          <a href="//www.linkedin.com/in/ezequieljlopez">LinkedIn</a>
+          <a class='contact-links' href="//www.facebook.com/Cocolote">Facebook</a>
+          <a class='contact-links' href="//twitter.com/j_skiel">Twitter</a>
+        </div>
+      </div>
+    </div>
+    <div id='my-face'>
+    </div>
+  </div>
+  <div class='row container' id='projects-container'>
+    <%= yield %>
+  </div>
+  <script type='text/javascript' src='//code.jquery.com/jquery-2.1.1.min.js'></script>
+  <script type='text/javascript' src='/js/materialize.min.js'></script>
+  <script type='text/javascript' src='/js/portfolio.js'></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+/* Let's put some makeup! */
+@import url(//fonts.googleapis.com/css?family=Raleway);
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+#banner-container {
+  background-image: url(http://socialtoolssummit.com/wp-content/uploads/2014/11/Boston-skyline.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 25em;
+  width: 100%;
+}
+
+#nav-bar {
+  background-color: rgba(255,255,255,0.5);
+}
+
+#my-face {
+  background-image: url(/images/me.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 15em;
+  width: 15em;
+  border: 0.7em solid white;
+  border-radius: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 13em;
+}
+
+.name-prof {
+  font-size: 2em;
+  display: inline-block;
+  margin: 0;
+  margin-right: 1em;
+}
+
+#prof {
+  font-size: 1em;
+}
+
+#links-container {
+  padding: 0.4em;
+  font-size: 2em;
+  float: right;
+}
+
+#projects-container {
+  margin-top: 10em;
+  border: 1px solid red;
+}
+
+.images {
+  border: 1px solid red;
+  height: 10em;
+  width: 100%;
+}
+
+.description {
+  border: 1px solid red;
+  height: 10em;
+  width: 100%;
+}
