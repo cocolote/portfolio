@@ -48,18 +48,31 @@ body {
 }
 
 #projects-container {
+  width: 90%;
   margin-top: 10em;
-  border: 1px solid red;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.projects {
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
 
 .images {
-  border: 1px solid red;
-  height: 10em;
+  height: 15em;
   width: 100%;
 }
 
+.images img {
+  margin-top: 1em;
+  width: 28em;
+  height: auto;
+  position: relative;
+  box-shadow: 1px 1px 5px 3px #000;
+}
+
 .description {
-  border: 1px solid red;
-  height: 10em;
+  height: 15em;
   width: 100%;
 }
