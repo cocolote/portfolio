@@ -31,14 +31,24 @@
       <h1>Ezequiel J. Lopez</h1>
       <h5>Jr Web Developer</h5>
     </div>
-    <div id='my-face'>
+    <div class='hover panel'>
+      <div class='front'>
+        <div class='pad'>
+            <img src='/images/me.png' alt='my-face front' class='my-face'>
+        </div>
+      </div>
+      <div class='back'>
+        <div class='pad'>
+            <img src='/images/Launch_Academy_Logo.png' alt='my-face back' class='my-face'>
+        </div>
+      </div>
     </div>
   </div>
   <div class='row' id='projects-container'>
     <%= yield %>
   </div>
   <script type='text/javascript' src='//code.jquery.com/jquery-2.1.1.min.js'></script>
-  <script type='text/javascript' src='/js/materialize.min.js'></script>
+  <script type='text/javascript' src='/js/vendor/materialize.min.js'></script>
   <script type='text/javascript' src='/js/portfolio.js'></script>
 </body>
 </html>
