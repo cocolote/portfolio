@@ -7,7 +7,7 @@ body {
 }
 
 h1, h3, h5 {
-  color: #E6E600;
+  color: #33CC33;
   font-weight: bold;
   letter-spacing: .3em;
 }
@@ -17,10 +17,11 @@ div p {
 }
 
 #banner-container {
-  background-color: #E6B800;
-/*  background-image: url(/images/bubbles.png);
+  background-color: #33CC33;
+  /*background-color: #E6B800;*/
+  background-image: url(/images/greenTree.jpg);
   background-size: 100% 100%;
-  background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
   height: 25em;
   width: 100%;
   border-bottom: 1em solid white;
@@ -66,14 +67,14 @@ div p {
 }
 
 .badges-right {
-  vertical-align: middle;
   width: 5em;
-  margin-right: 7em;
+  margin-right: 6em;
 }
 
 .badges-left {
+  vertical-align: middle;
   width: 5em;
-  margin-left: 7em;
+  margin-left: 6em;
 }
 
 .my-face {
@@ -176,5 +177,5 @@ div p {
 }
 
 .images img:hover {
-  box-shadow: 1px 1px 21px 3px #E6B800;
+  box-shadow: 1px 1px 21px 3px #33CC33;
 }
