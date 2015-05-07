@@ -66,6 +66,7 @@ div p {
 }
 
 .badges-right {
+  vertical-align: middle;
   width: 5em;
   margin-right: 7em;
 }
