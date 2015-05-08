@@ -1,6 +1,31 @@
 /* Lett's put some makeup! */
 @import url(//fonts.googleapis.com/css?family=Raleway);
 
+@media screen and (max-width: 1024px) {
+  .badges-contrainer {
+    display: none;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+
+  h3 {
+    font-size: 3em;
+  }
+
+  h5 {
+    margin: 0;
+    font-size: 1em;
+  }
+
+  .my-face {
+    margin-top: 2.4em;
+  }
+
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #303030;
@@ -18,7 +43,6 @@ div p {
 
 #banner-container {
   background-color: #33CC33;
-  /*background-color: #E6B800;*/
   background-image: url(/images/greenTree.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -165,7 +189,7 @@ div p {
   margin-top: 1em;
   margin-bottom: 2em;
   padding-top: 1em;
-  height: 18em;
+  height: auto;
 }
 
 .images img {
