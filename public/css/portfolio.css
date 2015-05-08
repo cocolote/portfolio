@@ -1,31 +1,6 @@
 /* Lett's put some makeup! */
 @import url(//fonts.googleapis.com/css?family=Raleway);
 
-@media screen and (max-width: 1024px) {
-  .badges-contrainer {
-    display: none;
-  }
-
-  h1 {
-    margin: 0;
-    font-size: 2.5em;
-  }
-
-  h3 {
-    font-size: 3em;
-  }
-
-  h5 {
-    margin: 0;
-    font-size: 1em;
-  }
-
-  .my-face {
-    margin-top: 2.4em;
-  }
-
-}
-
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #303030;
@@ -202,4 +177,32 @@ div p {
 
 .images img:hover {
   box-shadow: 1px 1px 21px 3px #33CC33;
+}
+
+@media screen and (max-width: 1024px) {
+  .badges-contrainer {
+    display: none;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+
+  h3 {
+    font-size: 3em;
+  }
+
+  h5 {
+    margin: 0;
+    font-size: 1em;
+  }
+
+  .my-face {
+    margin-top: -2em;
+  }
+
+  .images img { 
+    width: 25em;
+  }
 }
